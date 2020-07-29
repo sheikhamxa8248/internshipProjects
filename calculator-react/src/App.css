@@ -1,0 +1,61 @@
+* {
+  text-decoration: none;
+}
+
+.links a {
+  color: gray;
+  margin: 10px;
+}
+
+.links {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+a:hover {
+  color: black;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f7f7f7;
+}
+nav a {
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  color: gray;
+  font-family: "Recursive", sans-serif;
+}
+.calc {
+  position: absolute;
+  border: 1px solid gray;
+  width: 410px;
+  top: 38%;
+  left: 36%;
+  background-color: gray;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-bottom: -10px;
+}
+
+.display {
+  position: absolute;
+  left: 36%;
+  top: 26%;
+  padding: 40px;
+  border: 1px solid gray;
+  border-bottom: 1px dotted gray;
+  width: 330px;
+}
